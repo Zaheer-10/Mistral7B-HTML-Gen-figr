@@ -42,7 +42,7 @@ Leveraging the Hugging Face PEFT library, I set hyperparameters based on model d
 
 To facilitate user interaction with the fine-tuned model, I implemented an API using Flask. Users can input natural language queries, and the model will generate corresponding HTML code. This enhances the practical application of the model by making it accessible and user-friendly.
 
-## Evalua**strong text**tion
+## Evaluation
 
 The model's performance was evaluated using ROUGE scores (1, 2, L), perplexity, and visual inspection of generated HTML code. WandB facilitated result logging and comparison between different data preparation methods.
 
